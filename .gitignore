@@ -1,3 +1,38 @@
-firsthalfai.csv
+# Environment variables
 .env
-venv
+.env.local
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data files (add your CSV files here)
+*.csv
+!sample_recipients.csv
+
+# Configuration files with sensitive data
+config.json
+!config.json.template
+
+# Archive files are tracked for historical reference
+# (no exclusions needed for archive/)

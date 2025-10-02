@@ -1,0 +1,15 @@
+{
+  "sender_emails": [
+    "your-email1@example.com",
+    "your-email2@example.com"
+  ],
+  "sender_password": "your-app-password",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "delay_between_emails": 1,
+  "max_retries": 3,
+  "email_template": {
+    "subject": "Your Email Subject Here",
+    "body": "<html><body><p>Hello {name},<br><br>This is a personalized email for you.<br><br>Your unique code is: <strong>{unique_code}</strong><br><br>Best regards,<br>Your Team</p></body></html>"
+  }
+}
